@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+qutip>=5.0
+# Optional GPU acceleration (NVIDIA CUDA). Install the wheel matching your
+# CUDA toolkit, e.g.:
+#   pip install cupy-cuda12x
+# The package runs on CPU without it; see serfmad/backend.py.
